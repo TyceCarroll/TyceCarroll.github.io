@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyce's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/da0fb640c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/IMG_1656.PNG" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Tyce</span> Carroll<br>From Kansas City</h1>
+        </div>
+    </div>
+</div>
+<!--about section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/IMG_1659.PNG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, my name is Tyce Carroll and I am a driven high school student with strong foundations in computer science. My passion for programming began early and 
+                I've improved my skills through projects in Python, HTML, CSS and JavaScript. I am eager to contribute towards real-world projects and can't wait to learn 
+                new skills along the way.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming</span><br>Experience using Python, HTML, CSS, JavaScript, Linux/Bash and SQL.</li>
+                        <li><span>Cybersecurity</span><br>Recently completed the Google Cybersecurity Certificate.</li>
+                        <li><span>Soft Skills</span><br>Leadership, Research, Problem Solving, Communication and Adaptability.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Coding Instructor (Sep 2022 - May 2023)</span><br>Designed and instructed a school-sponsored web-dev course.</li>
+                        <li><span>Lead Designer At School Startup (Jan 2024 - May 2024)</span><br>Set up and maintained an online web store, also modelled out various product   
+                             protypes for testing.</li>
+                        <li><span>Startup CEO (Jan 2022 - May 2022)</span><br>Founded a semester long startup and led a team of students to make hundreds of dollars of profit 
+                         to be donated towards a local charity.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>North Kansas City High School (class of 2028)</span><br>- Enrolled in the school of Design, Innovation and Technology<br>- International 
+                             Baccalaureate Program<br>- Unweighted GPA: 4.0</li>
+                        <li><span>Online Courses</span><br>- FreeCodeCamp: Responsive Web Design (2022)<br>- FreeCodeCamp: JavaScript Algorithms and Data Structures 
+                             (2023)<br>- HarvardX: CS50's Introduction to Programming with Python (2023)<br>- Google Cybersecurity Certificate (2025)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--awards section-->
+<div id="awards">
+    <div class="container">
+        <h1 class="sub-title">My Awards</h1>
+        <div class="awards-list">
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>TSA Missouri State Finalist</h2>
+                <p>I made it to the finals in two events at the 2024 Middle School TSA (Technology Student Association) Missouri State Championships. I got 2nd place in the 
+                video game design event and 3rd place in the coding event.</p>
+                <a href="https://tsaweb.org/students/competitions?mspage=5&hspage=7" target="_blank">learn more about TSA</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-atom"></i>
+                <h2>ExploraVision Honorable Mention</h2>
+                <p>I recieved an honorable mention in the 2021 National Toshiba/NSDA ExploraVision Science contest for my work in innovating pollution reduction.</p>
+                <a href="https://www.exploravision.org/" target="_blank">learn more about ExploraVision</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>SAGE Game of the Year</h2>
+                <p>I recieved the 2022 "Game of the Year" award from the game design course at the SAGE Center (gifted education center for North Kansas City Schools).</p>
+                <a href="https://nic.nkcschools.org/sage-info" target="_blank">learn more about SAGE</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio section-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/IMG_1645.PNG">
+                <div class="layer">
+                    <h3>Placeholder 1</h3>
+                    <p>This is the description for placeholder 1, it will be updated once placeholder 1 gets replaced with a project.</p>
+                    <a href="" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/IMG_1648.PNG">
+                <div class="layer">
+                    <h3>Placeholder 2</h3>
+                    <p>This is the description for placeholder 2, it will be updated once placeholder 2 gets replaced with a project.</p>
+                    <a href="" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/IMG_1649.PNG">
+                <div class="layer">
+                    <h3>Placeholder 3</h3>
+                    <p>This is the description for placeholder 3, it will be updated once placeholder 3 gets replaced with a project.</p>
+                    <a href="" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--contact section-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>tycecarrollwork@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(816)-715-9048</p>
+                <div class="social-icons">
+                    <a href="https://github.com/TyceCarroll" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/Resume 5.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © TYCE</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+</script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz7DDpzfe6phjvEauOIT-NhowS0mY-ANcaY_rRG12hG6w9UUUDtpmAuQ5XCgH7rnQ4Z/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
