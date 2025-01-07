@@ -369,7 +369,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     .off-screen{
-        margin: 0 5px;
+        margin-right: 10%;
     }
 }
 #msg{
