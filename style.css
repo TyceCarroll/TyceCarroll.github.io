@@ -336,7 +336,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #61b752;
+        background: #ff004f;
         position: fixed;
         top: 0;
         right: -200px;
@@ -367,6 +367,9 @@ nav .fa-solid{
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+    }
+    .off-screen{
+        margin: 0 5px;
     }
 }
 #msg{
