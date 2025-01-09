@@ -24,7 +24,9 @@
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-            <p>Software Developer</p>
+            <div class="animated-text">
+                <p><span class="auto-type"></span></p>
+            </div>
             <h1>Hi, I'm <span>Tyce</span> Carroll<br>From Kansas City</h1>
         </div>
     </div>
@@ -146,7 +148,7 @@
                 <div class="social-icons">
                     <a href="https://github.com/TyceCarroll" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
-                <a href="Images/Resume 5.pdf" download class="btn btn2">Download CV</a>
+                <a href="Images/Resume 7.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
@@ -214,5 +216,18 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed(".auto-type", {
+        strings: ["A Developer", "A Learner", "A Brother", "A Leader", "An Athlete", "An Innovater", "A Student", "A Teacher", "A Reasearcher", "A Dreamer", "A Friend", 
+        "An Adapter", "A Son", "A Problem Solver","A Debater", "An Engineer", "A Human"], 
+        typeSpeed: 150,
+        backSpeed: 50,
+        loop: true
+    })
+
+  </script>
+
 </body>
 </html>

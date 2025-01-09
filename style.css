@@ -63,8 +63,14 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
-
 }
+
+.auto-type{
+    font-family: monospace;
+    color: #b54769;
+    font-size: 30px;
+}
+
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
@@ -355,6 +361,9 @@ nav .fa-solid{
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+    .auto-type{
+        font-size: 18px;
     }
     .sub-title{
         font-size: 40px;
